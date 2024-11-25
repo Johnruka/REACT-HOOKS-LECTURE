@@ -1,13 +1,14 @@
-
-import React from 'react'
+import React from "react";
 import ToggleButton from "./components/ToggleButton";
 import TodoList from "./components/TodoList";
 
-const main = () => {
+const App = () => {
   return (
-    <div>
-      <TodoList /> 
-    </div>
-  )
-}
+    <>
+      <TodoList />
+      <ToggleButton />
+    </>
+  );
+};
+
 export default App;
